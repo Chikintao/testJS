@@ -1,9 +1,16 @@
-const _answer = confirm("тобі є 18?");
-const _yes = "Так";
-const _no = "Ні";
+const _numberOfFilms = +prompt("Сколько вильмов вы уже посмотрели?");
 
-if (_answer == true) {
-  console.log(`Mother say ${_yes}`);
-} else {
-  console.log(`Mother say ${_no}`);
-}
+const personalMovieDB = {
+  count: _numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false,
+};
+
+const _userLastFilm = prompt("Один из последних фильмов?");
+const _userRaiting = prompt("Нас сколько оцените его");
+
+personalMovieDB.movies[`${_userLastFilm4}`] = _userRaiting;
+
+console.log(personalMovieDB);
