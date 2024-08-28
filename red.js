@@ -20,3 +20,14 @@ const _odessa = cities.find((city) => {
 });
 
 console.log(_odessa);
+
+// Homework
+
+const _arrOfNumber = [2, 3, 5, 712, 56, 6];
+
+_arrOfNumber.forEach((element) => {
+  console.log(element);
+});
+
+const _doubleArr = _arrOfNumber.map((number) => number * 2);
+console.log(_doubleArr);

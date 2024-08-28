@@ -43,3 +43,22 @@ logger();
 const calcSum = (a, b) => {
   return a + b;
 };
+// 25 lesson
+
+const usdCurr = 29;
+const eurCurr = 54;
+
+function convert(amount, curr) {
+  return curr * amount;
+}
+console.log(convert(3, usdCurr));
+console.log(convert(3, eurCurr));
+
+//return
+const discount = 0.9;
+
+function promotion(result) {
+  return result * discount;
+}
+
+console.log(promotion(convert(3, eurCurr)));
